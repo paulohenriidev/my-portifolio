@@ -13,11 +13,12 @@
 
 <body>
     <header class="nav-bar">
+
         <div class="nameBar">Paulo Henrique</div>
         <nav class="menu">
-            <a href="#projects">Projetos</a>
-            <a href="#">Redes Sociais</a>
-            <a href="#">Contato</a>
+            <a class="menuLink" href="#">Certificados</a>
+            <a class="menuLink" href="#projects">Projetos</a>
+            <a class="menuLink" href="#">Contato</a>
         </nav>
     </header>
 
@@ -45,6 +46,7 @@
             <div class="grid-projects">
                 <article class="card">
                     <h3>Cadastro de Usuários</h3>
+                    <img class="imgProjects" src="./assets/img/Home.png"/>
                     <p>Aplicação web simples para cadastro, visualização e gerenciamento de usuários. Desenvolvido com
                         foco em boas práticas de React e Node.js, com interface intuitiva e responsiva.</p>
                     <a class="description" href="https://cadastro-de-usuarios-kiw8.onrender.com/"
@@ -57,22 +59,77 @@
                         excluir tarefas de forma prática, com dados salvos localmente no navegador..</p>
                     <a class="description" href="#" target="_blank">Vizualizar deploy</a>
                 </article>
-
-                <article class="card">
-                    <h3>Aire</h3>
-                    <p>Plataforma de experiências sonoras com design imersivo.</p>
-                    <a class="description" href="#" target="_blank">Vizualizar deploy</a>
-                </article>
             </div>
         </section>
+
+        <section id="skills" class="skills">
+            <header>
+                <h2>Competências</h2>
+                <p>Principais habilidades, tecnologias e frameworks que utilizo no desenvolvimento web.</p>
+            </header>
+
+            <div class="grid-skills">
+                <article class="card">
+                    <h3>Front-End</h3>
+                    <p>
+                        Desenvolvimento de interfaces responsivas e acessíveis utilizando
+                        <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript (ES6+).</strong>
+                        Experiência com frameworks modernos como
+                        <strong>React</strong>, <strong>Next.js</strong>, <strong>Vue.js</strong> e bibliotecas de
+                        estilização como
+                        <strong>Styled-Components</strong>, <strong>Bootstrap</strong> e <strong>SASS</strong>.
+                        Foco em performance, acessibilidade e usabilidade (UI/UX).
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Back-End</h3>
+                    <p>
+                        Criação de APIs e serviços robustos utilizando
+                        <strong>Node.js</strong> e <strong>Express.js</strong>, além de
+                        <strong>Fastify</strong>. Gerenciamento de bancos de dados não relacionais como <strong>MongoDB</strong>.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>DevOps & Ferramentas</h3>
+                    <p>
+                        Versionamento de código com <strong>Git</strong>, <strong>GitHub</strong>.
+                        Deploy de aplicações em <strong>Vercel</strong>, <strong>Netlify</strong> e
+                        <strong>Render</strong>. Gerenciamento de dependências com
+                        <strong>NPM</strong> e <strong>Yarn</strong>.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>UI/UX & Design</h3>
+                    <p>
+                        Tradução de protótipos para código com <strong>Figma</strong> e princípios de
+                        <strong>Design Responsivo</strong>, <strong>Acessibilidade (WCAG)</strong>.
+                    </p>
+                </article>
+            </div>
+            <article class="cardTecnologias">
+                <h3>PRINCIPAIS TECNOLOGIAS</h3>
+                <p>
+                    <a href="https://skillicons.dev">
+                        <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs" />
+                    </a>
+                </p>
+            </article>
+        </section>
     </main>
+
     <footer class="footer">
         <div class="footer-content">
             <div class="social-links">
-                <a href="https://github.com/paulohenriidev" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/paulohenrim" target="_blank">LinkedIn</a>
-                <a href="paulohenriidev@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/paulohenrim" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin" /></a>
+
+                <a href="https://github.com/paulohenriidev" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github" /></a>
             </div>
+            <br>
             <p>&copy; 2025 Paulo Henrique. Todos os direitos reservados.</p>
         </div>
     </footer>
