@@ -37,8 +37,7 @@
 
   .cardTecnologias {
     padding: 20px; /* Reduz o padding */
-    width: 80%; /* Faz o card ocupar toda a largura */
-    height: auto; /* Permite que a altura se ajuste automaticamente */
+    height: auto;
   }
   .projects,
   .skills,
@@ -53,7 +52,7 @@
   .cardC,
   .certificates,
   p {
-    font-size: 16px;
+    font-size: 11px;
     color: #aaa;
   }
   .projects,
@@ -63,9 +62,10 @@
   .cardC,
   .certificates,
   h2 {
-    font-size: 16px;
+    font-size: 12px;
     color: #fdfdfd;
   }
+
   .projects,
   .skills,
   .cardTecnologias,
@@ -108,31 +108,22 @@
     height: 150px; /* Ajusta a altura do textarea */
   }
 
+
   #form {
     padding: 5%;
     width: 60%; /* Aumenta a largura para ocupar mais espaço */
     height: auto; /* Permite que a altura se ajuste automaticamente */
   }
 
-  .aboutMe,
-  p {
-    width: 80%; /* Aumenta a largura para ocupar mais espaço */
+  .aboutMe {
+    top: 20%; /* Aumenta a largura para ocupar mais espaço */
     height: auto; /* Permite que a altura se ajuste automaticamente */
-  }
-  .grid-certificates {
-      max-width: 50%; /* Ajusta a grade para telas menores */
   }
   .card p {
     text-align: justify;
     width: 100%; /* Faz o card ocupar toda a largura */
     hyphens: auto;
     line-height: 1.6;
-  }
-
-  .cardTecnologias {
-    padding: 20px; /* Reduz o padding */
-    width: 100%; /* Faz o card ocupar toda a largura */
-    height: auto; /* Permite que a altura se ajuste automaticamente */
   }
 
   footer {
