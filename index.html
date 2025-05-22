@@ -5,22 +5,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paulo | Front-End Developer</title>
-    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div onclick="hiddenmascara()" class="maskForm"></div>
+    <div onclick="hiddenabout()" class="maskAbout"></div>
     <header class="nav-bar">
-
         <div class="nameBar">Paulo Henrique</div>
         <nav class="menu">
-            <a class="menuLink" href="#">Certificados</a>
             <a class="menuLink" href="#projects">Projetos</a>
-            <a class="menuLink" href="#">Contato</a>
+            <a class="menuLink" href="certificados.html">Certificados</a>
+            <a class="menuLink" onclick="clickedButton()" href="#">Contato</a>
         </nav>
     </header>
+
+
 
     <main>
         <section class="home">
@@ -32,8 +37,32 @@
             </div>
             <div class="image-content">
                 <img class="phImg" src="assets/img/phtransp.svg" alt="Paulo Henrique" />
-                <img class="clickHere" src="assets/img/click here.png" alt="clique aqui" />
+                <img onclick="clickAbout()" class="clickHere" src="assets/img/click here.png" alt="clique aqui" />
             </div>
+            <article class="aboutMe">
+                <h3>Sobre mim</h3>
+                <p>Olá, sou o Paulo, tenho 23 anos e sou desenvolvedor front-end. Tenho experiência em criar interfaces
+                    responsivas e acessíveis, utilizando as mais recentes tecnologias web.
+                    Comecei minha jornada no desenvolvimento web em setembro de 2024, e desde então venho aprimorando
+                    minhas habilidades em JavaScript, React e outras tecnologias modernas. Meu diferencial é a
+                    capacidade de ter um codigo limpo e organizado, sempre buscando a melhor solução para cada desafio.
+                    Sou apaixonado por criar
+                    experiências de usuário envolventes e funcionais, sempre buscando aprender e me atualizar nas
+                    melhores práticas do mercado.
+                    <br>
+                    Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente. Acredito que
+                    a colaboração e o trabalho em equipe são fundamentais para o sucesso de qualquer projeto, e estou
+                    aberto a novas ideias e abordagens.
+                </p>
+            </article>
+
+            <form id="form" onsubmit="sendMessage(event)" >
+                <input placeholder="Seu nome" type="text" id="nome" />
+                <textarea placeholder="Descreva seu projeto" id="mensagem"></textarea>
+                <button class="btn" type="submit" onclick="clickedButton()">
+                    Enviar Mensagem
+                </button>
+            </form>
         </section>
 
         <!-- Seção de Projetos -->
@@ -46,11 +75,13 @@
             <div class="grid-projects">
                 <article class="card">
                     <h3>Cadastro de Usuários</h3>
-                    <img class="imgProjects" src="./assets/img/Home.png"/>
+                    <img class="imgProjects" src="./assets/img/Home.png" />
                     <p>Aplicação web simples para cadastro, visualização e gerenciamento de usuários. Desenvolvido com
                         foco em boas práticas de React e Node.js, com interface intuitiva e responsiva.</p>
                     <a class="description" href="https://cadastro-de-usuarios-kiw8.onrender.com/"
-                        target="_blank">Vizualizar deploy</a>
+                        target="_blank">Vizualizar deploy</a> <br>
+                    <a class="description" href="https://github.com/paulohenriidev/cadastro-de-usuarios"
+                        target="_blank">Vizualizar repositório</a>
                 </article>
             </div>
         </section>
@@ -80,7 +111,8 @@
                     <p>
                         Criação de APIs e serviços robustos utilizando
                         <strong>Node.js</strong> e <strong>Express.js</strong>, além de
-                        <strong>Fastify</strong>. Gerenciamento de bancos de dados não relacionais como <strong>MongoDB</strong>.
+                        <strong>Fastify</strong>. Gerenciamento de bancos de dados não relacionais como
+                        <strong>MongoDB</strong>.
                     </p>
                 </article>
 
