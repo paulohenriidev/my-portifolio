@@ -1,5 +1,12 @@
 /* CSS Responsivo */
-@media (max-width: 868px) {
+
+@media (max-width: 888px) {
+  .phImg {
+    max-width: 100%;
+    padding: 20px; /* Remove o padding */
+    margin: 0 auto; /* Centraliza a imagem */
+    height: auto; /* Permite que a altura se ajuste automaticamente */
+  }
   .nav-bar,
   .nameBar {
     padding: 20px; /* Reduz o padding da nav-bar para telas menores */
@@ -20,8 +27,8 @@
     align-items: center; /* Centraliza os itens */
   }
   .clickHere {
-    margin-left: 50%;
-    max-width: 30%; /* Aumenta a largura do botão em telas menores */
+    margin: 56% 0 0 18%;
+    max-width: 20%; /* Aumenta a largura do botão em telas menores */
   }
   .aboutMe,
   #form {
@@ -85,17 +92,25 @@
     ); /* Ajusta a grade para telas menores */
   }
 }
+  footer {
+    font-size: 12px; /* Diminui o tamanho da fonte do footer */
+  }
 
 @media (max-width: 480px) {
+  .phImg {
+    max-width: 100%;
+    margin: 0 auto; /* Centraliza a imagem */
+    height: auto; /* Permite que a altura se ajuste automaticamente */
+  }
   .clickHere {
-    margin-left: 60%;
-    max-width: 30%; /* Aumenta a largura do botão em telas menores */
+    margin: 56% 0 0 18%;
+    max-width: 20%; /* Aumenta a largura do botão em telas menores */
   }
   .nav-bar {
     font-size: 16px; /* Diminui ainda mais a fonte */
   }
   .text-container h1 {
-    font-size: 16px; /* Diminui o tamanho do título */
+    font-size: 13px; /* Diminui o tamanho do título */
     width: 75%; /* Faz o título ocupar toda a largura */
     margin: 0 auto 40% auto; /* Ajusta a margem */
     text-align: center; /* Centraliza o texto */
@@ -107,7 +122,6 @@
   textarea {
     height: 150px; /* Ajusta a altura do textarea */
   }
-
 
   #form {
     padding: 5%;
@@ -127,6 +141,6 @@
   }
 
   footer {
-    font-size: 14px; /* Diminui a fonte do footer */
+    font-size: 12px; /* Diminui o tamanho da fonte do footer */
   }
 }
