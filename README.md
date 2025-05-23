@@ -28,7 +28,7 @@ Meu portfólio pessoal desenvolvido utilizando **HTML**, **CSS** e **JavaScript*
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seuusuario/seuportifolio.git
+git clone https://github.com/paulohenriidev/portifolio-ph.git
 ```
 2. Acesse a pasta do projeto:
 
