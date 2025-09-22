@@ -1,60 +1,12 @@
-# 🌐 Portfólio 
+# React + Vite
 
-Meu portfólio pessoal desenvolvido utilizando **HTML**, **CSS** e **JavaScript**. Este projeto tem como objetivo apresentar meus projetos, meus certificados, minhas habilidades e informações de contato de forma profissional, responsiva e moderna.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🛠️ Funcionalidades
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🖥️ **Sobre Mim:** Informações pessoais, habilidades e trajetória.
-- 📂 **Seção de Projetos:** Lista dos meus principais projetos, com descrição,  links para visualização e repositórios.
-- 🎓 **Seção de Certificados:** Exibição dos cursos e certificados conquistados, com imagens ou links para validação.
-- 📞 **Informações de Contato:** Acesso rápido ao meu e-mail, LinkedIn, GitHub e outras redes.
-- 📱 **Design Responsivo:** Funciona perfeitamente em desktops, tablets e celulares.
-- 🎨 **Interface Moderna:** Layout limpo e intuitivo.
+## Expanding the ESLint configuration
 
----
-
-## 📌 Tecnologias Utilizadas
-
-- **HTML:** Estrutura da página.
-- **CSS:** Estilização e responsividade.
-- **JavaScript:** Interatividade e dinâmica da página.
-
----
-
-## 🚀 Como Executar o Projeto
-
-1. Clone este repositório:
-
-```bash
-git clone https://github.com/paulohenriidev/portifolio-ph.git
-```
-2. Acesse a pasta do projeto:
-
-3. Execute o arquivo ```index.html``` no navegador
-
-4. 📂 Estrutura do Projeto
-
-```
-📁 portfolio
-├── 📁 assets
-│   ├── 📁 img         # Imagens, ícones, certificados e outros arquivos estáticos
-├── styles.css          # Arquivos de estilos 
-├── responsividade.css  # Arquivos de estilos 
-├── script.js           # Scripts JavaScript
-├── index.html          # Página principal do portfólio
-├── certificados.html   # Página de certificados do portfólio
-└── README.md           # Documentação do projeto
-```
-
-## Imagens do projeto:
-
-![Image](https://github.com/user-attachments/assets/7d05c097-d78a-4cea-84bc-0ef3aa6679eb)
-
-![Image](https://github.com/user-attachments/assets/cbf990ce-97d4-44d2-a144-1c6b7257acca)
-
-![Image](https://github.com/user-attachments/assets/77541bb1-b942-4b3d-8025-c217da95d661)
-
-🤝 Contribuição
-Sinta-se à vontade para enviar pull requests ou sugerir melhoria.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --radial: radial-gradient(
+    circle at 0.9% 14%,
+    rgb(2, 151, 184) 55%,
+    rgba(193, 250, 255, 1) 78.1%
+  );
+  --textColor: rgb(2, 151, 184);
+
+  --border: #1e293b;
+  --bg: #111824;
+  --bg-Top: #161d2b;
+}
+
+.gradient-circle {
+  background-image: var(--radial);
+}
+
+.gradiant-text {
+  color: var(--textColor);
+}
+
+.bgAll {
+  background-color: var(--bg);
+}
+.bgTop {
+  background-color: var(--bg-Top);
+}
+.borderTop {
+  border-bottom: 1px solid var(--border);
+}
