@@ -1,12 +1,32 @@
-# React + Vite
+# 🌐 Portfólio 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meu portfólio pessoal em desenvolvimento utilizando **React** e **Tailwind**. Tenho como objetivo apresentar meus projetos, meus certificados, minhas habilidades e informações de contato de forma profissional, responsiva e moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🖥️ **Sobre Mim:** Informações pessoais, habilidades e trajetória.
+- 📂 **Seção de Projetos:** Lista dos meus principais projetos, com descrição,  links para visualização e repositórios.
+- 🎓 **Seção de Certificados:** Exibição dos cursos e certificados conquistados, com imagens ou links para validação.
+- 📞 **Informações de Contato:** Acesso rápido ao meu e-mail, LinkedIn, GitHub e outras redes.
+- 📱 **Design Responsivo:** Funciona perfeitamente em desktops, tablets e celulares.
+- 🎨 **Interface Moderna:** Layout limpo e intuitivo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Tecnologias Utilizadas
+
+- **React:** Estrutura da página, interatividade e dinâmica da página
+- **Tailwind:** Estilização e responsividade.
+
+---
+
+## Imagens do projeto:
+
+<img width="1907" height="620" alt="Image" src="https://github.com/user-attachments/assets/7a6b4325-6c2f-4988-ab8a-eacaba79f5c3" />
+
+
+
+🤝 Contribuição
+Sinta-se à vontade para enviar pull requests ou sugerir melhoria.
