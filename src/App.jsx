@@ -1,4 +1,7 @@
 import "./App.css";
+import HardSkillsSection from "./components/card/skills";
+import Projects from "./components/card/projects";
+import About from "./components/card/about";
 
 function App() {
   return (
@@ -23,13 +26,13 @@ function App() {
             </a>
             <a
               className="text-sm font-medium transition-colors hover:text-primary story-link"
-              href="#"
+              href="#skills"
             >
               Hard Skills
             </a>
             <a
               className="text-sm font-medium transition-colors hover:text-primary story-link"
-              href="#"
+              href="#projects"
             >
               Projetos
             </a>
@@ -47,7 +50,7 @@ function App() {
             </a>
             <a
               className="text-sm font-medium transition-colors hover:text-primary story-link"
-              href="#"
+              href="#about"
             >
               Sobre
             </a>
@@ -58,13 +61,13 @@ function App() {
       <main>
         <section
           id="hero"
-          className="relative grid justify-center items-center gap-8 pt-30 pb-12 md:grid-cols-2 md:py-60 lg:gap-10"
+          className="relative grid justify-center items-center gap-8 pt-30 pb-12 md:grid-cols-2 md:py-50 lg:gap-10"
         >
           <div className="opacity: 1; transform: none;">
             <aside className="flex items-center justify-center order-first md:order-last">
               <img
                 className="w-42 h-48 sm:w-50 sm:h-54 md:w-58 md:h-64 lg:w-66 lg:h-72 rounded-[2rem] md:rounded-[2.5rem] object-cover shadow-[0_0_40px_hsl(var(--accent)/0.35)]"
-                src="src/assets/photo.jpeg"
+                src="src/assets/portifolio/photo.jpeg"
                 loading="lazy"
                 alt="Foto do Paulo Henrique, Desenvolvedor FullStack"
               />
@@ -74,17 +77,20 @@ function App() {
           <div className="opacity: 1; transform: none;">
             <article className="flex flex-col gap-8 w-140 items-center justify-center">
               <h1 className=" text-center lg:text-6xl text-5xl md:text-5xl sm:text-4xl font-extrabold">
-                Olá! Me chamo <strong  className=" gradiant-text">Paulo Henrique</strong>
+                Olá! Me chamo{" "}
+                <strong className=" text-primary">Paulo Henrique</strong>
               </h1>
-              <p className= "text-center text-gray-500">
+              <p className="text-center text-gray-500">
                 Transformo ideias em realidade digital. Como desenvolvedor
                 Fullstack, crio soluções que conectam pessoas, fortalecem
                 negócios e deixam uma marca no universo online.
               </p>
             </article>
           </div>
-
         </section>
+        <HardSkillsSection />
+        <Projects />
+        <About />
       </main>
     </div>
   );

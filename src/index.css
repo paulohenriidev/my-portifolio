@@ -9,9 +9,10 @@
     rgb(2, 151, 184) 55%,
     rgba(193, 250, 255, 1) 78.1%
   );
-  --textColor: rgb(2, 151, 184);
+  --textPrimary: rgb(2, 151, 184);
+  --textSecond: #C1FAFF;
 
-  --border: #1e293b;
+  --border: #2f3c50;
   --bg: #111824;
   --bg-Top: #161d2b;
 }
@@ -20,8 +21,11 @@
   background-image: var(--radial);
 }
 
-.gradiant-text {
-  color: var(--textColor);
+.text-primary{
+  color: var(--textPrimary);
+}
+.text-second {
+  color: var(--textSecond);
 }
 
 .bgAll {
@@ -32,4 +36,7 @@
 }
 .borderTop {
   border-bottom: 1px solid var(--border);
+}
+.borderAll {
+  border: 1px solid var(--border);
 }
