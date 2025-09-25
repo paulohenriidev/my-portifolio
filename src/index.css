@@ -1,7 +1,13 @@
 @import "tailwindcss";
-* {
-  font-family: "Inter", sans-serif;
+ @theme {
+  --font-inter: "Inter", sans-serif;
+  --color-textPrimary: #0297B8;
+  --color-textSecond: #C1FAFF;;
 }
+html {
+  @apply scroll-smooth
+}
+
 
 :root {
   --radial: radial-gradient(
@@ -9,8 +15,6 @@
     rgb(2, 151, 184) 55%,
     rgba(193, 250, 255, 1) 78.1%
   );
-  --textPrimary: rgb(2, 151, 184);
-  --textSecond: #C1FAFF;
 
   --border: #2f3c50;
   --bg: #111824;

@@ -7,7 +7,7 @@ const Skills = () => {
       className="relative grid justify-center items-center text-justify tracking-normal gap-8 pt-8 pb-12 px-4 md:grid-cols-2 lg:gap-10 max-w-6xl mx-auto"
     >
       <article className="flex flex-col items-center gap-6 md:col-span-2">
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-second dark:text-white">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-white">
           Hard Skills
         </h2>
       </article>

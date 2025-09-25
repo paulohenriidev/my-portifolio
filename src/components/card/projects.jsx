@@ -7,7 +7,7 @@ const Projects = () => {
       className="relative grid justify-center items-center gap-8 pt-8 pb-12 px-4 md:grid-cols-2 lg:gap-10 max-w-6xl mx-auto "
     >
       <article className="flex flex-col items-center gap-6 md:col-span-2  ">
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-second dark:text-white">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-white">
           Projetos
         </h2>
       </article>    
@@ -15,7 +15,7 @@ const Projects = () => {
         title="Conversor de Moedas"
         img="src\assets\projects\conversor-de-moedas.png"
       >
-        conversão de valores de real (BRL) para outras moedas, como dólar
+        Conversão de valores de real (BRL) para outras moedas, como dólar
         americano (USD) e libra esterlina (GBP). O valor digitado pelo usuário é
         convertido com base em taxas de câmbio em tempo real.
         
